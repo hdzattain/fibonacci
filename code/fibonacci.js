@@ -13,3 +13,4 @@ var fibonacci = (function () {
     return memory[n] = memory[n-1] + memory[n-2]
   }
 })()
+module.exports=fibonacci
